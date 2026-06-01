@@ -8,7 +8,6 @@ submission_full.csv
 report.pdf
 run_log_*.txt
 artefacts.json
-
 # Python scripts generated during test run
 modeling.py
 eda.py
@@ -19,7 +18,6 @@ generate_report.py
 outlier_detection.py
 final_check.py
 task_type.py
-
 # Generated data files
 train_processed.csv
 val_processed.csv
@@ -29,16 +27,15 @@ feature_list.txt
 feature_meta.json
 model_selection.txt
 outlier_strategy.txt
-
 # Model files
 models/
-
 # Images from EDA
 *.png
-
 # Python
 venv/
 __pycache__/
 *.pyc
 *.pyo
+.DS_Store.DS_Store
+data/.DS_Store
 .DS_Store
