@@ -1,0 +1,44 @@
+# Data files — organizers populate this at evaluation
+data/*
+!data/.gitkeep
+
+# Test run generated files — never commit these
+submission.csv
+submission_full.csv
+report.pdf
+run_log_*.txt
+artefacts.json
+
+# Python scripts generated during test run
+modeling.py
+eda.py
+analyze_data.py
+feature_engineering.py
+generate_submission.py
+generate_report.py
+outlier_detection.py
+final_check.py
+task_type.py
+
+# Generated data files
+train_processed.csv
+val_processed.csv
+val_with_predictions.csv
+feature_importance.csv
+feature_list.txt
+feature_meta.json
+model_selection.txt
+outlier_strategy.txt
+
+# Model files
+models/
+
+# Images from EDA
+*.png
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
