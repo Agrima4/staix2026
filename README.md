@@ -4,8 +4,8 @@
 
 ```bash
 # 1. Clone and enter repo
-git clone https://github.com/<org>/<repo>.git
-cd <repo>
+git clone https://github.com/Agrima4/staix2026.git
+cd staix2026
 
 # 2. Place held-out dataset into data/
 #    data/ must contain DATA_DESCRIPTION.md + CSV files
